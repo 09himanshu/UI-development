@@ -1,0 +1,119 @@
+*{
+    font-family: "Ubuntu Sans Mono", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F4;
+}
+
+.profile_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px #D0D3D4;
+    padding: 25px;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* position: relative; */
+    background-color: blue;
+    padding: 3px;
+}
+
+.image .profile_img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile_card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+} 
+
+.text .job {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.media{
+    margin-top: 10px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.bxl-instagram{
+    color: purple;
+}
+
+.bxl-twitter{
+    color: black;
+}
+
+.bxl-youtube{
+    color: red;
+}
+
+.bxl-linkedin{
+    color: #2471A3;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* cursor:; */
+}
+
+.like, .subscribe{
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: #0e4bf1;
+    width: 130px;
+    height: 35px;
+    border: none;
+    color: #F2F3F4;
+}
+
+.like {
+    margin-right: 10px;
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.data{
+    font-size: 18px;
+}
+
+
+.data:last-child{
+    border-right: none;
+}
